@@ -36,6 +36,25 @@ print('\'Python\'s easy\'')
 print("Pyhon's easy")
 #''문자열 Python's easy!
 
+data = 'Python'
+print(data[len(data) - 1])
+
+# 시작점 : 끝점 : 증감정도 (끝점 포함X)
+print(data[0:3:2])
+print(data[-1:-5:-1])
+
+# 숫자 -> 문자
+# 문자(Char) -> 숫자
+
+print(chr(97)) # --> 숫자에서 문자
+print(ord('a')) # --> 문자에서 숫자
+print(ord('A')) # --> 문자에서 숫자
+
+for i in range(10):
+    print(i)
+
+# for 변수 in iterable
+# for 변수 in range(len(interable)):
 
 
 
